@@ -1,17 +1,10 @@
 body {
     margin: 0;
-    background-color: #c0ccc4;
+    background-color: rgb(232,221,203);
 
 }
 
-header{
-    position: relative;
-    width: 100%;
-    height: 130px;
-    z-index: 99;  
-    background-color: #A3C1AD;
-    top:0px;
-}
+
 .outter{
     display: flex;
     flex-direction:column;
@@ -36,7 +29,7 @@ td{
 
 .calculator{
     display:grid;
-    background-color: #000000;
+    background-color: rgb(3,101,100);
     margin: 0 auto;
     grid-template-columns: repeat(5, 1fr);
     width: 350px;
@@ -48,7 +41,7 @@ td{
 .output{
     width: 350px;
     height: 65px;
-    background-color: #700606;
+    background-color: rgb(3,22,52);
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
@@ -83,7 +76,7 @@ td{
 
 .numberContainer{
     display:grid;
-    background-color: #000000;
+    
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 150px;
     height: 700px;
@@ -109,7 +102,7 @@ button{
   width: 65px;
   height: 65px;
   font-size: 15px;
-  background-color: rgb(47, 47, 47);
+  background-color: rgb(205,179,128);
 }
 
 .operator{
@@ -118,13 +111,13 @@ button{
     
 }
 .number{
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(205,179,128);
 
 }
-.equal{
-    background-color: rgb(0, 247, 255);
-}
+.equal{ 
+    background-color: rgb(223, 159, 56);
+    }
 
 button:hover{
-    background-color: rgb(254, 255, 185);
+    background-color: rgb(255, 226, 167);
 }
